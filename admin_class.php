@@ -5,7 +5,7 @@ Class Action {
 	private $db;
 
 	public function __construct() {
-		ob_start();
+		ob_start();   
    	include 'db_connect.php';
     
     $this->db = $conn;
